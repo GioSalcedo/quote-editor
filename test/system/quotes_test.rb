@@ -26,6 +26,7 @@ class QuotesTest < ApplicationSystemTestCase
     assert_selector "h1", text: "Quotes"
     assert_text "Capybara quote"
   end
+  
   test "Showing a quote" do
     visit quotes_path
     click_link @quote.name
