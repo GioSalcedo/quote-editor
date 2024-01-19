@@ -2,5 +2,8 @@
   <%= link_to sanitize("&larr; Back to quotes"), quotes_path %>
 
   <div class="header">
-    <h1>Edit quote</h1>
+    <h1>New quote</h1>
   </div>
+
+  <%= render "form", quote: @quote %>
+</main>
