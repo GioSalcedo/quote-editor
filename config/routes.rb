@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   resources :quotes
+  root "quotes#index"
 end
