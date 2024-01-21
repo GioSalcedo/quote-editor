@@ -20,4 +20,16 @@
   --color-text-header: hsl(0, 1%, 16%);
   --color-text-body:   hsl(0, 5%, 25%);
   --color-text-muted:  hsl(0, 1%, 44%);
+
+  // Classical and robust spacing system
+  --space-xxxs: 0.25rem; // 4px
+  --space-xxs: 0.375rem; // 6px
+  --space-xs: 0.5rem;    // 8px
+  --space-s: 0.75rem;    // 12px
+  --space-m: 1rem;       // 16px
+  --space-l: 1.5rem;     // 24px
+  --space-xl: 2rem;      // 32px
+  --space-xxl: 2.5rem;   // 40px
+  --space-xxxl: 3rem;    // 48px
+  --space-xxxxl: 4rem;   // 64px
 }
