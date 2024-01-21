@@ -1,0 +1,23 @@
+:root {
+  // Simple fonts
+  --font-family-sans: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  // Classical line heights
+  --line-height-headers: 1.1;
+  --line-height-body:    1.5;
+
+  // Classical and robust font sizes system
+  --font-size-xs: 0.75rem;   // 12px
+  --font-size-s: 0.875rem;   // 14px
+  --font-size-m: 1rem;       // 16px
+  --font-size-l: 1.125rem;   // 18px
+  --font-size-xl: 1.25rem;   // 20px
+  --font-size-xxl: 1.5rem;   // 24px
+  --font-size-xxxl: 2rem;    // 32px
+  --font-size-xxxxl: 2.5rem; // 40px
+
+  // Three different text colors
+  --color-text-header: hsl(0, 1%, 16%);
+  --color-text-body:   hsl(0, 5%, 25%);
+  --color-text-muted:  hsl(0, 1%, 44%);
+}
