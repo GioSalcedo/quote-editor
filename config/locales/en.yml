@@ -29,3 +29,16 @@
 
 en:
   hello: "Hello world"
+  simple_form:
+    placeholders:
+      quote:
+        name: Name of your quote
+    labels:
+      quote:
+        name: Name
+
+  helpers:
+    submit:
+      quote:
+        create: Create quote
+        update: Update quote
