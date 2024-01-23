@@ -33,7 +33,7 @@
   --space-xxxl: 3rem;    // 48px
   --space-xxxxl: 4rem;   // 64px
 
-  // Application colors
+    // Application colors
   --color-primary:          hsl(350, 67%, 50%);
   --color-primary-rotate:   hsl(10, 73%, 54%);
   --color-primary-bg:       hsl(0, 85%, 96%);
@@ -47,5 +47,6 @@
   --color-background: hsl(30, 50%, 98%);
   --color-light:      hsl(0, 6%, 93%);
   --color-dark:       var(--color-text-header);
+  
 
 }
