@@ -24,3 +24,17 @@ body {
   line-height: var(--line-height-body);
   font-family: var(--font-family-sans);
 }
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
